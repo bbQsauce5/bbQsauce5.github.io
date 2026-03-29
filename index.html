@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>NECROFALL</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: #0e0e0e;
+            color: #eaeaea;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px 20px;
+        }
+
+        h1 {
+            font-family: 'Montserrat', serif;
+            font-size: 42px;
+            letter-spacing: 4px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .hook {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+
+        .game-image {
+            width: 40%;
+            max-width: 400px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 6px;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .game-image:hover {
+            transform: scale(1.03);
+            opacity: 0.9;
+        }
+
+        p {
+            color: #aaa;
+            line-height: 1.6;
+        }
+
+        .cta {
+            margin-top: 25px;
+            display: flex;           /* make it a flex container */
+            flex-direction: column;  /* stack children vertically */
+            align-items: center;     /* center buttons horizontally */
+            gap: 10px;               /* space between buttons */
+        }
+
+        .steam-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0px;
+            padding: 10px 18px;
+            border: 1px solid #555;
+            text-decoration: none;
+            color: #fff;
+            transition: 0.2s;
+
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 510;
+            letter-spacing: 1px;
+        }
+
+        .steam-button img {
+            height: 50px;
+            width: auto;
+            margin-left: -12px;
+            position: relative;
+            top: 2px;
+        }
+
+        .steam-button:hover {
+            border-color: #fff;
+            background: rgba(255,255,255,0.05);
+        }
+
+        /* Social icons styling */
+        .links {
+            margin-top: 25px;
+        }
+
+        .links a {
+            margin: 0 10px;
+            display: inline-block;
+            opacity: 0.7;
+            transition: 0.2s;
+        }
+
+        .links img {
+            width: 22px;
+            height: 22px;
+        }
+
+        .links a:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>NECROFALL</h1>
+
+    <div class="hook">
+        A first-person melee roguelike where you fight through a decaying medieval world as an undead warrior.
+    </div>
+
+    <a href="https://store.steampowered.com/app/4346010/Necrofall/" target="_blank">
+        <img src="necrofall-capsule.png" alt="Necrofall" class="game-image">
+    </a>
+
+    <p>
+        Developed by Gabriele Dolcemascolo.
+    </p>
+
+    <div class="cta">
+        <a href="https://store.steampowered.com/app/4346010/Necrofall/" target="_blank" class="steam-button">
+            WISHLIST ON<img src="steam.png" alt="Steam">
+        </a>
+
+        <!-- Press Kit button -->
+        <a href="https://impress.games/press-kit/gabrieledolcemascolo/necrofall" target="_blank" class="steam-button">
+            Press Kit
+        </a>
+    </div>
+
+
+    <div class="links">
+    <a href="https://x.com/_bbqsauce" target="_blank">
+        <img src="x.png" alt="X">
+    </a>
+    <a href="https://www.youtube.com/@necrofallgame" target="_blank">
+        <img src="youtube.png" alt="YouTube">
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://instagram.com/necrofallgame" target="_blank">
+        <img src="instagram.png" alt="Instagram">
+    </a>
+
+    <!-- TikTok -->
+    <a href="https://tiktok.com/@necrofallgame" target="_blank">
+        <img src="tiktok.png" alt="TikTok">
+    </a>
+</div>
+</div>
+</body>
+</html>
